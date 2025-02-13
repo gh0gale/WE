@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Account Form</title>
+  </head>
+  <body>
+    <h2 style="text-align: center">Email Account Form</h2>
+    <form>
+      <label>Enter Username</label>
+      <input type="text" name="username" /><br /><br />
+
+      <label>Enter Password</label>
+      <input type="password" name="password" /><br /><br />
+
+      <label>Address</label><br />
+      <textarea name="address" rows="4" cols="30"></textarea><br /><br />
+
+      <label>Fields of interests</label>
+      <input
+        type="checkbox"
+        name="interest"
+        value="Entertainment"
+      />Entertainment
+      <input type="checkbox" name="interest" value="Sports" />Sports
+      <input type="checkbox" name="interest" value="News" />News<br /><br />
+
+      <label>Gender</label>
+      <input type="radio" name="gender" value="Male" />Male
+      <input type="radio" name="gender" value="Female" />Female<br /><br />
+
+      <label>Select Languages</label><br />
+      <select name="languages" multiple>
+        <option>Marathi</option>
+        <option>Hindi</option>
+        <option>English</option></select
+      ><br /><br />
+
+      <label>Select Country</label>
+      <select name="country">
+        <option>India</option></select
+      ><br /><br />
+
+      <label>Upload Photo</label>
+      <input type="file" name="photo" /><br /><br />
+
+      <input type="button" value="Validate" />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
