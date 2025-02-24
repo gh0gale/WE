@@ -1,0 +1,35 @@
+.container{
+    margin-top: 5rem;
+    margin-left: 40rem;
+}
+
+h1{
+    padding-left: 30px;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+        border-radius: 5px;
+        border: none;
+        height: 30px;
+        font-weight: 600;
+        cursor: pointer;
+}
+
+.Inc{
+    background-color: rgb(11, 189, 38);
+}
+.Dec{
+    background-color: rgb(249, 8, 8);
+}
+.Res{
+    background-color: rgb(50, 131, 189);
+}
+
+button :hover{
+    transform: scale(1.50); 
+}
