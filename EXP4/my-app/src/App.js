@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
-import Counter from "./Counter";
+import {Counter} from "./Counter";
 import { About } from "./About";
 import { Login } from "./Login";
 import { SignUp } from "./SignUp";
@@ -12,10 +12,10 @@ function App() {
         <div>
           <nav className="Navbar">
             <ul>
-              <li><Link to ="/">Home</Link></li>
-              <li><Link to ="/about">About</Link></li>
-              <li><Link to ="/login">Login</Link></li>
-              <li><Link to ="/signup">SignUp</Link></li>
+              <li><Link className="L" to ="/">Home</Link></li>
+              <li><Link className="L" to ="/about">About</Link></li>
+              <li><Link className="L" to ="/login">Login</Link></li>
+              <li><Link className="L" to ="/signup">SignUp</Link></li>
             </ul>
           </nav>
           <Routes>
