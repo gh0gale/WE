@@ -1,0 +1,52 @@
+/* General Navbar Styles */
+.container {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+.L {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.L:hover {
+  /* background: rgba(255, 255, 255, 0.2); */
+  color: #ff9800;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .L {
+    display: block;
+  }
+}
