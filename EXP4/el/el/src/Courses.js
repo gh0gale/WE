@@ -1,44 +1,45 @@
 import React from "react";
 import "./Courses.css";
 
+
 const coursesData = [
   {
     id: 1,
     title: "Web Development",
     description:
       "Learn HTML, CSS, JavaScript, and React to build modern websites.",
-    image: "https://source.unsplash.com/featured/?coding",
+    image: "",
   },
   {
     id: 2,
     title: "UI/UX Design",
     description: "Master the art of user experience and interface design.",
-    image: "https://source.unsplash.com/featured/?design",
+    image: "",
   },
   {
     id: 3,
     title: "Data Science",
     description: "Explore Python, machine learning, and data visualization.",
-    image: "https://source.unsplash.com/featured/?data",
+    image: "",
   },
   {
     id: 4,
     title: "Cybersecurity",
     description:
       "Learn about ethical hacking, network security, and encryption.",
-    image: "https://source.unsplash.com/400x250/?cybersecurity,hacking",
+    image: "",
   },
   {
     id: 5,
     title: "Mobile App Development",
     description: "Build Android & iOS apps using Flutter and React Native.",
-    image: "https://source.unsplash.com/400x250/?mobile,app",
+    image: "",
   },
   {
     id: 6,
     title: "Artificial Intelligence",
     description: "Understand AI, deep learning, and neural networks.",
-    image: "https://source.unsplash.com/400x250/?ai,technology",
+    image: "",
   },
 ];
 

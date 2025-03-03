@@ -4,12 +4,12 @@ import Home from "./Home";
 import About from "./About";
 import Courses from "./Courses";
 import Contact from "./Contact";
-import {Navbar} from "./Navbar"; // Optional navigation bar
+import {Navbar} from "./Navbar";
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Optional Navbar for navigation */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
