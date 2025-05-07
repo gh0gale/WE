@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventory SYSTEM "items.dtd">
+<inventory>
+    <item>
+        <ID>101</ID>
+        <name>Wireless Mouse</name>
+        <price>799.50</price>
+    </item>
+    <item>
+        <ID>102</ID>
+        <name>USB-C Charger</name>
+        <price>1199.00</price>
+    </item>
+    <item>
+        <ID>103</ID>
+        <name>Bluetooth Headphones</name>
+        <price>2499.99</price>
+    </item>
+</inventory>

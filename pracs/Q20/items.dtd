@@ -1,0 +1,5 @@
+<!ELEMENT inventory (item+)>
+<!ELEMENT item (ID, name, price)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
