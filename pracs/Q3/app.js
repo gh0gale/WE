@@ -7,6 +7,6 @@ const fs = require('fs');
 
 // fs.appendFileSync('hello.txt', '\nHow are you?');
 
-fs.unlinkSync('hello.txt');
+// fs.unlinkSync('hello.txt');
 
 // same for Q18

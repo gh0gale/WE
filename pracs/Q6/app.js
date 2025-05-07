@@ -36,4 +36,4 @@ mongoose.connect('mongodb://127.0.0.1:27017/mydatabase')
     console.error('Failed to connect to MongoDB:', err);
   });
 
-  //same for Q7 replace find with fndOne
+  //same for Q7 replace find with findOne
